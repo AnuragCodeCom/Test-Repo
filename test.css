@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(176deg, rgba(18,24,27,1) 50%, rgba(32,39,55,1) 100%);
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: #c415db;
+}
+.text-primary {
+    color: #ffffff!important;
+}
+a.text-primary:hover, a.text-primary:focus {
+    color: #c415db !important;
+}
+.bg-primary {
+    background: linear-gradient(176deg, rgba(18,24,27,1) 50%, rgba(32,39,55,1) 100%);
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+    background-color: #000000 !important;
+}
+
+.header{
+    background: linear-gradient(176deg, rgba(18,24,27,1) 50%, rgba(32,39,55,1) 100%);
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.content-outer section{
+    background: linear-gradient(176deg, rgba(18,24,27,1) 50%, rgba(32,39,55,1) 100%);
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #282d6e;
+    border-color: #282d6e;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #c415db;
+    border-color: #c415db;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #0076e0;
+    border-color: #0076e0;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #005bad;
+    border-color: #0054a0;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 118, 224, 0.5);
+}
+.jumbotron {
+    background-color: #0076e0;
+    background-image: url(https://cdn.tebex.io/webstore/tebex2020/jumbotron-bg-blue.jpg);
+}
+.progress-bar {
+    color: #fff;
+    background-color: #0076e0;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #0076e0;
+    background-color: #fafafa;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    background-color: #0076e0;
+}
+.gateways .radio input[type="radio"]:checked + img {
+    border: 2px solid #0076e0 !important;
+}
